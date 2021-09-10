@@ -16,7 +16,7 @@ var podRecommend = {
     {
       name: "Flagrant 2 ",
       description:
-        "Flagrant 2 is a comedy podcast that delivers unfiltered, unapologetic, and unruly hot takes directly to your dome piece"
+        "Flagrant 2 is a comedy podcast that delivers unfiltered, unapologetic, and unruly hot takes directly to your dome piece."
     }
   ],
   History: [
@@ -26,14 +26,14 @@ var podRecommend = {
         "Hardcore History is Carlin's forum for exploring topics throughout world history. The episodes are generally centered on specific historical events and are discussed in a Theater of the Mind style."
     },
     {
-      name: "The Correct History of India.",
+      name: "The Correct History of India",
       description:
         "Indian History is not a Myth! The British called it mythology for conversion & colonization purposes. Time to debunk the false Western narrative."
     },
     {
       name: "Forgotten India",
       description:
-        "This podcast will bring out those historical events of Indian history which are either unremembered or deliberately forgotten"
+        "This podcast will bring out those historical events of Indian history which are either unremembered or deliberately forgotten."
     }
   ],
 
@@ -41,7 +41,7 @@ var podRecommend = {
     {
       name: "Reply All",
       description:
-        "It’s about the internet. Every week they cover a new story related to the web"
+        "It’s about the internet. Every week they cover a new story related to the web."
     },
     {
       name: "How I built this",
@@ -58,24 +58,24 @@ var podRecommend = {
     {
       name: "Varun Mayya's Cero",
       description:
-        "Pondering everything from simulation theory to quantum mechanics to medicine to find a consistent narrative to our lives"
+        "Pondering everything from simulation theory to quantum mechanics to medicine to find a consistent narrative to our lives."
     },
     {
       name: "Stuff To Blow Your Mind",
       description:
-        "Examines neurological quandaries, cosmic mysteries, evolutionary marvels and the technological underpinnings of our transhuman future"
+        "Examines neurological quandaries, cosmic mysteries, evolutionary marvels and the technological underpinnings of our transhuman future."
     },
     {
       name: "The Common Descent",
       description:
-        "A podcast about the fascinating diversity of life, past and present"
+        "A podcast about the fascinating diversity of life, past and present."
     }
   ],
   SelfHelp: [
     {
-      name: "Sol Brah Solcast",
+      name: "Sol Brah's Solcast",
       description:
-        "Creating immersive audio experiences discussing health, bodybuilding, philosophy and total life optimisation"
+        "Creating immersive audio experiences discussing health, bodybuilding, philosophy and total life optimisation."
     },
     {
       name: "Jordan Peterson Podcast",
@@ -121,7 +121,7 @@ export default function App() {
       </div>
 
       <hr className="line" />
-      <p className="text">Here are some podcast to listen to</p>
+      <p className="text">Here are some podcasts to listen to</p>
       <div>
         <ul className="list-non-bullet">
           {podRecommend[genre].map((pod) => (
@@ -135,11 +135,12 @@ export default function App() {
 
         <footer>
           <h1>About</h1>
-          <p className="text-f">Want to listen to some great Podcast!</p>
-          <p className="text-f">But don't know any?</p>
+          <p className="text-f">
+            Want to listen to some great Podcast? But don't know any?
+          </p>
           <p className="text-f">Let me help you</p>
           <p className="text-f">
-            Just select any genre and we'll recommend you some great Podcast
+            Just select any genre and we'll recommend you some great Podcasts
           </p>
           <h2>Made with ❤️ by : Ashutosh</h2>
         </footer>
